@@ -1,0 +1,60 @@
+:root{
+    @font-face {
+        font-family: 'Get Schwifty';
+        src: url('/font/get_schwifty.ttf');
+    }
+}
+
+body {
+    background: #131416;
+}
+
+
+#titre {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Get Schwifty';
+}
+
+#jeu {
+    margin: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+}
+
+.test {
+    background: url(bar.png);
+    background-size: 300px 200px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.test img {
+    height: 180px;
+    width: 130px;
+}
+
+
+.mia {
+    transform: translateY(260px);
+    transition: all 0.2s;
+}
+
+.mia-up {
+    transform: translateY(0);
+    transition: all 0.5s;
+}
